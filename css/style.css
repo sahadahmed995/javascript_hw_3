@@ -1,0 +1,41 @@
+body{
+    transition: .50s;
+    text-align: center;
+    background-color: #000;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border: 2px #474747 solid;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: .50s;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #474747;
+}
+.btn .on{
+    width: 0;
+    height: 100%;
+    transition: .50s;
+}
+.btn .switch{
+    width: 40px;
+    background-color: #8e8e8e;
+    height: 100%;
+    border-radius: 50%;
+    transition: .50s;
+}
+.btn .off{
+    width: 0;
+    height: 100%;
+    transition: .50s;
+}
+.btn .width{
+    width: 60px;
+}
